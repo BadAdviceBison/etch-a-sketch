@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    /* border: 2px dotted pink; */
+}
+
+h1 {
+    display: flex;
+    margin: 16px;
+    justify-content: center;
+}
+
+.playContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playArea {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 75px;
+    border: 4px solid rebeccapurple;
+    height: 800px;
+    width: 800px;
+}
+
+.footer {
+    display:flex;
+    border: 4px solid gainsboro;
+}
+
+.button {
+    height: 50px;
+    width: 100px;
+    color: blue;
+    background-color:orangered;
+}
