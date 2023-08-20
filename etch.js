@@ -5,14 +5,16 @@ const refreshButton = document.querySelector('.refresh')
 const changeCountButton = document.querySelector('.changeCount')
 let playSquares = document.querySelectorAll('.square')
 
-//Create final function that runs all game functions so we can use that to refresh the play area. Maybe we also have 2 buttons, one refresh, one change size
+//Come back and create two color panels - one to choose the background, and the other to choose the pen color.
 
 getSize()
 createPlayArea()
 activatePen()
 
+//Come back to create getSize2 or something which has shorter prompt message excluding the initial explanation for the changeCountButton
+
 function getSize() {
-        squareAmount = prompt('Enter a number')
+        squareAmount = prompt('How many squares per side do you want on the etch-a-sketch? \n\n The higher the number, the more precise the "pen", and the smaller the panels that get colored in. \n\n This device supports 16 to 100 squares per side.')
         for (;;) {
             if (squareAmount <16 || squareAmount >100) {
             alert('Please enter a valid number (16-100)')
