@@ -1,11 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; */
-    /* border: 2px dotted pink; */
+    background-color: black;
 }
 
 h1 {
+    color:white;
     display: flex;
     margin: 16px;
     justify-content: center;
@@ -28,12 +28,31 @@ h1 {
 
 .footer {
     display:flex;
-    border: 4px solid gainsboro;
 }
 
-.button {
-    height: 50px;
-    width: 100px;
+.refresh {
+    font-size: 28px;
+    height: 100px;
+    width: 200px;
     color: blue;
     background-color:orangered;
+}
+
+.changeCount {
+    font-size: 28px;
+    height: 100px;
+    width: 200px;
+    padding: 0px 8px;
+    color: white;
+    background-color:goldenrod;
+}
+
+.square {
+    background-color: magenta;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.darken {
+    background-color: blue;
 }
